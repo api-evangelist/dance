@@ -1,0 +1,4 @@
+Contact: mailto:infosec@dance.co
+Expires: 2024-12-31T11:30:00.000Z
+Preferred-Languages: en, de
+Policy: https://dance.co/vulnerability-reporting

@@ -1,7 +1,15 @@
 aid: dance
 name: Dance
-description: 'Dance is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Dance is a Berlin-based electric mobility subscription company that offers
+  e-bikes and e-mopeds as an all-in-one monthly subscription. A single fixed monthly
+  fee bundles the vehicle together with on-demand repairs and maintenance, fast
+  replacements, and theft protection, so members can ride without owning or servicing
+  the hardware themselves. Dance operates in Berlin, Hamburg, and Paris, with product
+  lines including the Dance One and Dance One Step e-bikes and the Dance Moped. Founded
+  in 2020 by SoundCloud co-founders Alexander Ljung and Eric Quidenus-Wahlforss with
+  Jimdo co-founder Christian Springub, Dance is a consumer-facing, app-based service
+  backed by HV Capital. It does not currently publish a public developer API; this
+  profile captures the company''s public web, help, and security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/dance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +17,62 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://dance.co/social.jpg
 tags:
 - Company
 - Consumer
+- Mobility
+- Micromobility
+- E-Bike
+- Subscription
+- Transportation
+- Electric Vehicles
+- Berlin
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: VulnerabilityDisclosure
+  url: security/dance-vulnerability-disclosure.yml
+- type: Security
+  url: https://dance.co/vulnerability-reporting
+- type: DomainSecurity
+  url: security/dance-domain-security.yml
+- type: WellKnown
+  url: well-known/dance-well-known.yml
+- type: SecurityTxt
+  url: well-known/dance-security.txt
+- type: Website
+  url: https://dance.co
+- type: Blog
+  url: https://dance.co/blog
+- type: Support
+  url: https://help.dance.co
+- type: TermsOfService
+  url: https://dance.co/terms
+- type: PrivacyPolicy
+  url: https://dance.co/legal
+- type: Pricing
+  url: https://dance.co/ebike
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
